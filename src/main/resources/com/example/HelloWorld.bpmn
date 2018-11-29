@@ -68,7 +68,7 @@
       <bpmn2:dataInputAssociation id="_q0y6mvO2Eeiphal7GBIVbQ">
         <bpmn2:targetRef>_A3B91F45-9578-49C4-8290-C29CA27BEF5D_GroupIdInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_q0y6m_O2Eeiphal7GBIVbQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_q0y6nPO2Eeiphal7GBIVbQ"><![CDATA[users]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_q0y6nPO2Eeiphal7GBIVbQ"><![CDATA[user]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_q0zhoPO2Eeiphal7GBIVbQ">_A3B91F45-9578-49C4-8290-C29CA27BEF5D_GroupIdInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
