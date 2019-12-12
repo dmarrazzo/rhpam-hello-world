@@ -5,7 +5,7 @@ package com.example;
  */
 
 @javax.persistence.Entity
-public class Transaction implements java.io.Serializable {
+public class Transaction extends org.drools.persistence.jpa.marshaller.VariableEntity {
 
 	static final long serialVersionUID = 1L;
 
