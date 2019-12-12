@@ -23,6 +23,13 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+  <dependencies>
+    <dependency>
+			<groupId>org.drools</groupId>
+			<artifactId>drools-persistence-jpa</artifactId>
+			<scope>provided</scope>
+		</dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>
