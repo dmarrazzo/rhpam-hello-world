@@ -5,9 +5,7 @@ package com.example;
  */
 
 @javax.persistence.Entity
-public class Customer
-		extends
-			org.drools.persistence.jpa.marshaller.VariableEntity {
+public class Customer extends org.drools.persistence.jpa.marshaller.VariableEntity {
 
 	static final long serialVersionUID = 1L;
 
@@ -51,6 +49,11 @@ public class Customer
 		this.name = name;
 		this.address = address;
 		this.id = id;
+	}
+
+	@Override
+	public String toString() {
+		return String.format("Customer {id: %s, name: %s, address: %s }", id, name, address);
 	}
 
 }

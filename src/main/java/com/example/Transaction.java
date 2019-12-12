@@ -61,4 +61,9 @@ public class Transaction extends org.drools.persistence.jpa.marshaller.VariableE
 		this.id = id;
 	}
 
+	@Override
+	public String toString() {
+		return String.format("Transaction {id: %s, account: %s, amount: %s, source: %s }", id, account, amount, source);
+	}
+
 }
