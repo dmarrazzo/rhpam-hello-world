@@ -9,7 +9,11 @@
   <name>hello-world</name>
   <description></description>
   <properties>
-        <version>7.26.0.Final-redhat-00006</version>
+    <ba.version>7.9.0.redhat-00002</ba.version>
+    <version.org.kie>7.44.0.Final-redhat-00003</version.org.kie>
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
   </dependencies>
@@ -18,8 +22,16 @@
       <plugin>
         <groupId>org.kie</groupId>
         <artifactId>kie-maven-plugin</artifactId>
-        <version>${version}</version>
+        <version>${version.org.kie}</version>
         <extensions>true</extensions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>${maven.compiler.source}</source>
+          <target>${maven.compiler.target}</target>
+        </configuration>
       </plugin>
     </plugins>
   </build>
