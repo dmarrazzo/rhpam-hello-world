@@ -16,6 +16,11 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
+    <dependency>
+      <groupId>org.kie</groupId>
+      <artifactId>kie-api</artifactId>
+      <version>${version.org.kie}</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>

@@ -85,7 +85,7 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_84EEA04F-2D08-455F-9E22-6E6ECCC8F74D</bpmn2:incoming>
       <bpmn2:outgoing>_D4ED0DC7-9C98-4977-BC51-CC42D7F07B3C</bpmn2:outgoing>
-      <bpmn2:script><![CDATA[System.out.println("Hello "+name);]]></bpmn2:script>
+      <bpmn2:script><![CDATA[com.example.HelloProcScript.sayHello(kcontext);]]></bpmn2:script>
     </bpmn2:scriptTask>
     <bpmn2:endEvent id="_4A852A9C-46BE-4AB2-8E14-DB50FE8B536E">
       <bpmn2:incoming>_D4ED0DC7-9C98-4977-BC51-CC42D7F07B3C</bpmn2:incoming>
